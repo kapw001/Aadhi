@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Name" />
+            <TextView
+                android:layout_weight="2"
+                android:id="@+id/rv_testimonial_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+            <TextView
+                android:layout_weight="2"
+                android:id="@+id/rv_testimonial_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+        </TableRow>
+
+        <TableRow
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Description" />
+
+        </TableRow>
+
+        <TableRow
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textAlignment="viewStart"
+                android:id="@+id/rv_testimonial_content"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="De scriptiondfsdfs dfsdfs dfx zcz xczxczxcxzczx    fsdfsvxcvvxcvxcv"
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</android.support.v7.widget.CardView>

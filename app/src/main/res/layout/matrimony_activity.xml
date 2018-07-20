@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_layout_bg"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:paddingBottom="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true">
+
+        <com.app.aadhi.common.customtextview.LatoBoldTextview
+            android:id="@+id/title"
+            style="@style/App_Common_Menus_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="@string/matrimony_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="62dp" />
+
+        <ImageView
+            android:id="@+id/content_image1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:elevation="2dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_matrimony_img1" />
+
+        <com.app.aadhi.common.customtextview.LatoBoldTextview
+            android:id="@+id/content_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/matrimony_caption1"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/content_image1"
+            tools:layout_editor_absoluteX="24dp" />
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/content_description"
+            tools:layout_editor_absoluteX="8dp">
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/row1_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/horoscope_of" />
+
+                <RadioGroup
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:layout_weight="1"
+                    android:background="#2E2623"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingEnd="40dp"
+                    android:paddingStart="40dp">
+
+                    <RadioButton
+                        android:id="@+id/rb_user_gender_male"
+                        style="@style/App_Matrimony_Cell"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Boy" />
+
+                    <RadioButton
+                        android:id="@+id/rb_user_gender_female"
+                        style="@style/App_Matrimony_Cell"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Girl" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/subsect_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/sub_sect" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/subsect_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/gothram_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/gotharam_pascal_case" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/gothram_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/dob_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/date_of_birth" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/dob_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/tob_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/time_place_of_birth" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/tob_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/qualification_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/qualification" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/qualification_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/profession_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/profession" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/profession_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/address_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/address_pascal_case" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/address_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/whatsappno_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/whatsapp_contact_no" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/whatsappno_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/fathers_name_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/fathers_name" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/fathers_name_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/mothers_name_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/mothers_name" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/mothers_name_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/brothers_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/brothers" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/brothers_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/brothers_elder_younger_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/elder_younger" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/brothers_elder_younger_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/sisters_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/sisters" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/sisters_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/sisters_elder_younger_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/elder_younger" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/sisters_elder_younger_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <com.app.aadhi.common.customtextview.LatoRegularEditText
+                android:id="@+id/requirement"
+                style="@style/App_Matrimony_Cell"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp"
+                android:text="@string/requirement" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#2E2623"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_prefer_male"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="32dp"
+                    android:checked="false"
+                    android:text="Boy" />
+
+                <RadioButton
+                    android:id="@+id/rb_prefer_female"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="wrap_content"
+                    android:checked="true"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Girl" />
+            </RadioGroup>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/age_upto_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/age_upto" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/age_upto_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/Education_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/education" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/Education_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/nativity_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/nativity" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/nativity_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/preference_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/preference" />
+
+                <RadioGroup
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:layout_weight="1"
+                    android:background="#2E2623"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp">
+
+                    <RadioButton
+                        android:id="@+id/rb_prefer_working"
+                        style="@style/App_Matrimony_Cell"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:text="@string/working" />
+
+                    <RadioButton
+                        android:id="@+id/rb_prefer_non_working"
+                        style="@style/App_Matrimony_Cell"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="@string/non_working" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="2dp">
+
+                <com.app.aadhi.common.customtextview.LatoBoldTextview
+                    android:id="@+id/india_overseas_title"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/india_overseas" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularEditText
+                    android:id="@+id/india_overseas_description"
+                    style="@style/App_Matrimony_Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/App_Matrimony_Cell"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+            tools:layout_editor_absoluteX="148dp" />
+
+    </LinearLayout>
+</ScrollView>

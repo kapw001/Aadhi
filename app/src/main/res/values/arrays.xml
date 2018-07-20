@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pooja_family_options">
+        <item>Select Pooja Type</item>
+        <item>Engagement</item>
+        <item>Wedding</item>
+        <item>Wedding Anniversary</item>
+        <item>Seemandham/Valakaappu</item>
+        <item>Sandhanagopala pooja</item>
+        <item>Swayamvara Parvathi Pooja</item>
+        <item>Grihapravesham</item>
+        <item>Bheema shanthi - 55</item>
+        <item>Sashtiapthapoorthi - 61</item>
+        <item>Bheemaradha shanthi - 71</item>
+        <item>Sadabhishekam - 81</item>
+        <item>Kanagabhishekam -100</item>
+        <item>Poornabhishekam</item>
+        <item>Ganga Pooja (Kaasi Yatra Return)</item>
+    </string-array>
+
+    <string-array name="pooja_children_options">
+        <item>Select Pooja Type</item>
+        <item>Puniyaha vaachanam</item>
+        <item>Jathakarma/ Namakaranam</item>
+        <item>AnnaPrashanam</item>
+        <item>Aayush homam</item>
+        <item>Swolam</item>
+        <item>Girl Puniyahavachanam</item>
+        <item>Aksharabhyasam</item>
+        <item>Upanayanam</item>
+        <item>Mahasaraswathi Pooja</item>
+        <item>Hayagreeva Pooja</item>
+        <item>Chalangai Pooja</item>
+        <item>Rudrabhishekam</item>
+    </string-array>
+
+    <string-array name="sradham_thithi_options">
+        <item>Select Pooja Type</item>
+        <item>Annual Sradham</item>
+        <item>Sodhakumbham</item>
+        <item>Maasikam / OOnamasikam</item>
+        <!--<item>Pindapradhanam / Bali Sradham</item>Bali Sratham-->
+        <item>Pinda Pradhanam / Bali Sratham</item>
+        <item>Pinda Pradhanam</item>
+        <item>KuzhiTharpanam</item>
+        <item>Aabdheegam</item>
+        <item>Special Tharpanam</item>
+        <item>Crimation Karma</item>
+    </string-array>
+
+    <string-array name="homam_options">
+        <item>Select Pooja Type</item>
+        <item>Ganapathy Homam</item>
+        <item>Ganapathy homam - 0ffice / Factroy</item>
+        <item>Ganapahy Pooja / Office</item>
+        <item>Navagraha Shanthi Homam</item>
+        <item>Grahapravesham</item>
+        <item>Aayushya Homam</item>
+        <item>Mirthunjaya homam</item>
+        <item>Sudarshana Homam</item>
+        <item>Satyanarayan Kadha /Pooja</item>
+        <item>Chandi Homam / Pooja</item>
+        <item>Bhoomi Pooja / Homam</item>
+        <item>Bhagavathi Seva</item>
+        <item>Ayyappa Pooja</item>
+        <item>Lakshmi Kubera Pooja</item>
+        <item>Vahana Pooja</item>
+        <item>All kinds of Parihara Homam</item>
+    </string-array>
+</resources>

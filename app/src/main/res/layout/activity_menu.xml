@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_name"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/padding_five"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_twenty"
+            android:orientation="horizontal">
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_current_events"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/current_events"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_online_pocha"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:layout_marginRight="@dimen/padding_ten"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/online_pocha"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_notice"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/notice"
+                android:textAllCaps="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_name"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/padding_five"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_twenty"
+            android:orientation="horizontal">
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_matrimonial"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:padding="@dimen/padding_five"
+                android:text="@string/matrimonial"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_vasthu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:layout_marginRight="@dimen/padding_ten"
+                android:background="@color/white"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/vastu"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_astrology"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/padding_five"
+                android:text="@string/astrology"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_name"
+            android:layout_marginBottom="@dimen/padding_five"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_twenty"
+            android:orientation="horizontal">
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_pooja_family"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/family_pooja"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_child_pooja"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:layout_marginRight="@dimen/padding_ten"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/child_pooja"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_homam"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/homam"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_name"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/padding_five"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_twenty"
+            android:orientation="horizontal">
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_sloka"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:padding="@dimen/padding_five"
+                android:text="@string/slokas"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_sastram"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:layout_marginRight="@dimen/padding_ten"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/sastram"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_pilgrimege"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/pilgrimege"
+                android:textAllCaps="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+
+        </RelativeLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/grey"
+            android:padding="@dimen/padding_five"
+            android:layout_marginTop="@dimen/padding_ten"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.2"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:layout_weight="0.8"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+                <com.app.aadhi.common.customtextview.LatoRegularTextview
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/testimonial"
+                    android:layout_height="wrap_content" />
+
+                <com.app.aadhi.common.customtextview.LatoRegularTextview
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/write_recomendations"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

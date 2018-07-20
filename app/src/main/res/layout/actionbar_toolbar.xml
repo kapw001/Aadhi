@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ga_ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/padding_forty_eight"
+        app:contentInsetStart="@dimen/padding_zero"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@drawable/ic_toolbar_bg">
+        <!--app:theme="@style/ActionBarMaterialTheme"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/action_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+                android:visibility="visible" />
+
+            <com.app.aadhi.common.customtextview.LatoBoldTextview
+                android:id="@+id/back_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:visibility="visible"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_sixteen"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/padding_five"
+                android:paddingBottom="2dp"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="2dp"
+                android:src="@drawable/ic_aadhi_logo"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/iv_right_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/padding_five"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_home_black_24dp"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>
+
+
+

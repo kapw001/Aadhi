@@ -1,0 +1,4 @@
+#Thu Jul 19 20:03:16 IST 2018
+base.0=/home/df1/WorkArea/Aadhi-2/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

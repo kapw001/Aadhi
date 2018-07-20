@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_layout_bg">
+
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="16dp"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp">
+
+                <TableRow android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_online_pooja"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_bg_round_rect_blue"
+                        android:padding="0dp"
+                        android:text="@string/online_pocha" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="8dp"
+                        android:layout_height="0dp" />
+
+                    <Button
+                        android:id="@+id/btn_aadhi_matrimony"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_bg_round_rect_blue"
+                        android:text="@string/matrimonial" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="8dp"
+                        android:layout_height="0dp" />
+
+                    <Button
+                        android:id="@+id/btn_vaastu_consultancy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_bg_round_rect_blue"
+                        android:text="@string/vastu" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="16dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_astrology"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_bg_round_rect_blue"
+                        android:padding="0dp"
+                        android:text="@string/astrology"
+                        android:textSize="12dp" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="8dp"
+                        android:layout_height="0dp" />
+
+                    <Button
+                        android:id="@+id/btn_pooja_family"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_bg_round_rect_blue"
+                        android:text="@string/family_pooja" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="8dp"
+                        android:layout_height="0dp" />
+
+                    <Button
+                        android:id="@+id/btn_pooja_children"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_bg_round_rect_blue"
+                        android:text="@string/child_pooja" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="16dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_homam"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_bg_round_rect_blue"
+                        android:padding="0dp"
+                        android:text="@string/homam"
+                        android:textSize="12dp" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="8dp"
+                        android:layout_height="0dp" />
+
+                    <Button
+                        android:id="@+id/btn_sratham_pinda"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_bg_round_rect_blue"
+                        android:text="@string/sratham_pinda_title" />
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="8dp"
+                        android:layout_height="0dp" />
+
+                    <Button
+                        android:id="@+id/btn_pilgrimage"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_bg_round_rect_blue"
+                        android:text="@string/pilgrimege" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+
+
+    <include
+        android:id="@+id/layout_common_testimonial"
+        layout="@layout/layout_common_testimonial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

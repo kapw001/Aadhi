@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_layout_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_ten">
+
+        <com.app.aadhi.common.customtextview.LatoRegularTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/current_events_in_universe"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_sixteen" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_ten"
+            android:layout_marginRight="@dimen/padding_ten"
+            android:layout_marginTop="@dimen/padding_twenty">
+
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_kumbabi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:background="@color/events"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/kumababishekam"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_navarathiri"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:layout_marginRight="@dimen/padding_ten"
+                android:background="@color/events"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/navarathiri"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_pongal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/events"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/pongal"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_ten"
+            android:layout_marginRight="@dimen/padding_ten"
+            android:layout_marginTop="@dimen/padding_twenty">
+
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_ayyapa"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:background="@color/events"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/ayyapa_pooja"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_sri_rama"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:layout_marginRight="@dimen/padding_ten"
+                android:background="@color/events"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/sri_rama"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_sri_venkat"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/events"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/sri_venkat"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+        </RelativeLayout>
+
+
+        <com.app.aadhi.common.customtextview.LatoRegularTextview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_thirty"
+            android:text="@string/you_can_upload"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_twelve" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tl_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_ten"
+            app:theme="@style/EditextTheme">
+
+            <com.app.aadhi.common.customtextview.LatoRegularEditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_fourteen" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tl_email_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_ten"
+            app:theme="@style/EditextTheme">
+
+            <com.app.aadhi.common.customtextview.LatoRegularEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_fourteen" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tl_mobile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_ten"
+            app:theme="@style/EditextTheme">
+
+            <com.app.aadhi.common.customtextview.LatoRegularEditText
+                android:id="@+id/et_mobile_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile_number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_fourteen" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_ten">
+
+            <com.app.aadhi.common.customtextview.LatoBoldTextview
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_five"
+                android:layout_marginTop="@dimen/padding_ten"
+                android:text="@string/attach_photo"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_twelve" />
+
+            <com.app.aadhi.common.customtextview.LatoBoldTextview
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/padding_ten"
+                android:background="@color/button_color"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/padding_ten"
+                android:text="@string/upload"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_twelve" />
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tl_link_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_ten"
+            app:theme="@style/EditextTheme">
+
+            <com.app.aadhi.common.customtextview.LatoRegularEditText
+                android:id="@+id/et_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/attach_link"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_fourteen" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tl_description_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_marginTop="@dimen/padding_ten"
+            app:theme="@style/EditextTheme">
+
+            <com.app.aadhi.common.customtextview.LatoRegularEditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/description"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_fourteen" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <com.app.aadhi.common.customtextview.LatoBoldTextview
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/padding_ten"
+            android:background="@color/button_color"
+            android:padding="@dimen/padding_ten"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_sixteen" />
+
+    </LinearLayout>
+
+</ScrollView>

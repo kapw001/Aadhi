@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.app.aadhi.common.customtextview.LatoRegularTextview
+    android:id="@+id/btn_current_event"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentLeft="true"
+    android:background="@color/events"
+    android:gravity="center"
+    android:padding="@dimen/padding_five"
+    android:text=""
+    android:textAllCaps="true"
+    android:textColor="@color/black"
+    android:textSize="@dimen/sp_fourteen"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

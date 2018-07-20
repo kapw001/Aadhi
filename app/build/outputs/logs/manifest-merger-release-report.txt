@@ -1,0 +1,390 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:1-136:12
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:1-136:12
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:1-136:12
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:1-136:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e3dda1deac71d561249a7a4f834a2287/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.javiersantos:AppUpdater:2.7] /home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e6d19d7f10841495b9eab33fcdf6c9cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a5b38e775eeaa2e586b73d7bba579275/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/348d21e2208849d617883459c6efbacc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/df1/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d5929ffeed1b0c9ba1376eb87867c3da/AndroidManifest.xml:2:1-14:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/df1/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/07e0fa61e594cbeb245a4c0bba282267/AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/df1/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/3b12430cdfd84d4f27ec43f18f0d5e9e/AndroidManifest.xml:15:1-21:12
+MERGED from [com.facebook.fresco:fresco:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/fresco-0.11.0.aar/6c580cc2f2344a7eae0d79c50f76cb0f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/df1/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/560e19ab6473cb1ab4914f84d6d623c3/AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.fresco:drawee:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/drawee-0.11.0.aar/4824134398c7a03c56b49d8c129c74f1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/imagepipeline-0.11.0.aar/52c446404d20b42420277d92a465449e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-0.11.0.aar/4c5f8807a499eee83b0dfa662e5788a1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5cfa9b3136a6390ec09755930b7f7a0b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/5083499ecf0b25636452f6bcccf4d556/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ce7035b8a3eb6a0fe8d4842f15075ad7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/70178c4db98badb7ea4e585850540f02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6c71f1165eb9df4ca8ec0a4284ad9c3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/0cf0506e90abfca8c2ea087e763e5972/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8c6639918be7d8283a31f451f4ac1c8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/39a9e7a879ca5f13d9536829e67a85b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c07b6d8eacbaad5cfb15dda1143c7035/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2a6e982e360549bf735407a93cec5b9a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/fbcore-0.11.0.aar/766d6a0c1c4606005cda82d4c7364eba/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e8e768957c2126c57acfaeb6895a7229/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5d54a70845768e50412e1f5bfbe8a5b6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/16041d3c9d8e96795a5887130fe97b0a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e73e150dc57513f3dd11d9f05840bc8c/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:1-136:12
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:1-136:12
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:1-136:12
+	package
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:1-136:12
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:1-136:12
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.github.javiersantos:AppUpdater:2.7] /home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/AndroidManifest.xml:12:5-79
+MERGED from [com.github.javiersantos:AppUpdater:2.7] /home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.github.javiersantos:AppUpdater:2.7] /home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/AndroidManifest.xml:11:5-67
+MERGED from [com.github.javiersantos:AppUpdater:2.7] /home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:8:5-134:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e3dda1deac71d561249a7a4f834a2287/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e3dda1deac71d561249a7a4f834a2287/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/df1/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d5929ffeed1b0c9ba1376eb87867c3da/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/df1/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d5929ffeed1b0c9ba1376eb87867c3da/AndroidManifest.xml:7:5-12:19
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/df1/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/560e19ab6473cb1ab4914f84d6d623c3/AndroidManifest.xml:12:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/df1/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/560e19ab6473cb1ab4914f84d6d623c3/AndroidManifest.xml:12:5-20
+	android:supportsRtl
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:13:9-48
+	android:icon
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:9:9-40
+activity#com.app.aadhi.SplashActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:16:9-25:20
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:18:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:19:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:17:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.app.aadhi.login.LoginActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:26:9-29:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:28:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:29:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:27:13-48
+activity#com.app.aadhi.dashboard.DashboardActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:30:9-33:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:32:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:33:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:31:13-56
+activity#com.app.aadhi.dashboard.MenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:34:9-37:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:36:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:37:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:35:13-51
+activity#com.app.aadhi.dashboard.InformationsMenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:38:9-41:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:40:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:41:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:39:13-63
+activity#com.app.aadhi.dashboard.ServicesMenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:42:9-45:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:44:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:45:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:43:13-59
+activity#com.app.aadhi.dashboard.currentevents.CurrentEventsListActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:52:9-55:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:54:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:55:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:53:13-78
+activity#com.app.aadhi.dashboard.currentevents.CurrentEventsDetailsActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:56:9-59:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:58:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:59:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:57:13-81
+activity#com.app.aadhi.dashboard.pooja.PoojaListActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:60:9-63:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:62:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:63:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:61:13-62
+activity#com.app.aadhi.dashboard.pooja.PoojaDetailsActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:64:9-67:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:66:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:67:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:65:13-65
+activity#com.app.aadhi.dashboard.eappnotice.EAppNoticeListActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:68:9-71:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:70:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:71:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:69:13-72
+activity#com.app.aadhi.dashboard.eappnotice.EAppNoticeDetailsActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:72:9-75:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:74:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:75:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:73:13-75
+activity#com.app.aadhi.dashboard.matrimony.MatrimonyMenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:76:9-79:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:78:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:79:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:77:13-70
+activity#com.app.aadhi.dashboard.vaastu.VaastuMenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:80:9-83:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:82:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:83:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:81:13-64
+activity#com.app.aadhi.dashboard.astrology.AstrologyMenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:84:9-87:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:86:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:87:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:85:13-70
+activity#com.app.aadhi.dashboard.pooja.PoojaForFamilyMenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:88:9-91:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:90:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:91:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:89:13-71
+activity#com.app.aadhi.dashboard.pooja.PoojaForChildrenMenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:92:9-95:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:94:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:95:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:93:13-73
+activity#com.app.aadhi.dashboard.homam.HomamMenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:96:9-99:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:98:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:99:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:97:13-62
+activity#com.app.aadhi.dashboard.srathampinda.SrathamPindaMenuActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:100:9-103:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:102:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:103:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:101:13-76
+activity#com.app.aadhi.dashboard.pilgrimage.PilgrimageTourListActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:104:9-107:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:106:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:107:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:105:13-76
+activity#com.app.aadhi.dashboard.pilgrimage.PilgrimageTourDetailsActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:108:9-111:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:110:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:111:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:109:13-79
+activity#com.app.aadhi.dashboard.audiomsg.AudioMessagesListActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:112:9-115:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:114:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:115:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:113:13-73
+activity#com.app.aadhi.dashboard.videomsg.VideoMessagesListActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:116:9-119:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:118:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:119:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:117:13-73
+activity#com.app.aadhi.dashboard.slokasandmantras.SlokasAndMantrasListActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:120:9-123:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:122:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:123:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:121:13-84
+activity#com.app.aadhi.dashboard.slokaforday.SlokaForTheDayListActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:124:9-127:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:126:13-49
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:127:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:125:13-77
+activity#com.app.aadhi.dashboard.testimonial.TestimonialActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:128:9-132:76
+	android:screenOrientation
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:131:13-49
+	android:label
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:130:13-63
+	android:windowSoftInputMode
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:132:13-73
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:129:13-70
+activity#com.app.aadhi.dashboard.testimonial.PostTestimonialActivity
+ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:133:9-92
+	android:name
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml:133:19-80
+uses-sdk
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e3dda1deac71d561249a7a4f834a2287/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e3dda1deac71d561249a7a4f834a2287/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.javiersantos:AppUpdater:2.7] /home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.javiersantos:AppUpdater:2.7] /home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e6d19d7f10841495b9eab33fcdf6c9cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e6d19d7f10841495b9eab33fcdf6c9cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a5b38e775eeaa2e586b73d7bba579275/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a5b38e775eeaa2e586b73d7bba579275/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/348d21e2208849d617883459c6efbacc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/348d21e2208849d617883459c6efbacc/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/df1/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d5929ffeed1b0c9ba1376eb87867c3da/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/df1/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d5929ffeed1b0c9ba1376eb87867c3da/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/df1/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/07e0fa61e594cbeb245a4c0bba282267/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/df1/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/07e0fa61e594cbeb245a4c0bba282267/AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/df1/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/3b12430cdfd84d4f27ec43f18f0d5e9e/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/df1/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/3b12430cdfd84d4f27ec43f18f0d5e9e/AndroidManifest.xml:19:5-43
+MERGED from [com.facebook.fresco:fresco:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/fresco-0.11.0.aar/6c580cc2f2344a7eae0d79c50f76cb0f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/fresco-0.11.0.aar/6c580cc2f2344a7eae0d79c50f76cb0f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/df1/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/560e19ab6473cb1ab4914f84d6d623c3/AndroidManifest.xml:8:5-10:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/df1/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/560e19ab6473cb1ab4914f84d6d623c3/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/drawee-0.11.0.aar/4824134398c7a03c56b49d8c129c74f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/drawee-0.11.0.aar/4824134398c7a03c56b49d8c129c74f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/imagepipeline-0.11.0.aar/52c446404d20b42420277d92a465449e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/imagepipeline-0.11.0.aar/52c446404d20b42420277d92a465449e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-0.11.0.aar/4c5f8807a499eee83b0dfa662e5788a1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-0.11.0.aar/4c5f8807a499eee83b0dfa662e5788a1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5cfa9b3136a6390ec09755930b7f7a0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5cfa9b3136a6390ec09755930b7f7a0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/5083499ecf0b25636452f6bcccf4d556/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/5083499ecf0b25636452f6bcccf4d556/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ce7035b8a3eb6a0fe8d4842f15075ad7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ce7035b8a3eb6a0fe8d4842f15075ad7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/70178c4db98badb7ea4e585850540f02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/70178c4db98badb7ea4e585850540f02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6c71f1165eb9df4ca8ec0a4284ad9c3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6c71f1165eb9df4ca8ec0a4284ad9c3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/0cf0506e90abfca8c2ea087e763e5972/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/0cf0506e90abfca8c2ea087e763e5972/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8c6639918be7d8283a31f451f4ac1c8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8c6639918be7d8283a31f451f4ac1c8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/39a9e7a879ca5f13d9536829e67a85b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/39a9e7a879ca5f13d9536829e67a85b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c07b6d8eacbaad5cfb15dda1143c7035/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c07b6d8eacbaad5cfb15dda1143c7035/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2a6e982e360549bf735407a93cec5b9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/df1/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2a6e982e360549bf735407a93cec5b9a/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/fbcore-0.11.0.aar/766d6a0c1c4606005cda82d4c7364eba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /home/df1/.gradle/caches/transforms-1/files-1.1/fbcore-0.11.0.aar/766d6a0c1c4606005cda82d4c7364eba/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e8e768957c2126c57acfaeb6895a7229/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e8e768957c2126c57acfaeb6895a7229/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5d54a70845768e50412e1f5bfbe8a5b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5d54a70845768e50412e1f5bfbe8a5b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/16041d3c9d8e96795a5887130fe97b0a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/16041d3c9d8e96795a5887130fe97b0a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e73e150dc57513f3dd11d9f05840bc8c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/df1/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e73e150dc57513f3dd11d9f05840bc8c/AndroidManifest.xml:20:5-44
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+		ADDED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/df1/WorkArea/Aadhi-2/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/df1/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d5929ffeed1b0c9ba1376eb87867c3da/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/df1/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d5929ffeed1b0c9ba1376eb87867c3da/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/df1/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d5929ffeed1b0c9ba1376eb87867c3da/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/df1/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d5929ffeed1b0c9ba1376eb87867c3da/AndroidManifest.xml:9:13-64

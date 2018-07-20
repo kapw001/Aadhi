@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_dashboard_bg_0"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Visibility is set to gone, because text is available in BG drawable itselft.-->
+        <!--TODO: Remove this view.-->
+        <ImageView
+            android:id="@+id/tv_invite"
+            android:visibility="gone"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_sixteen"
+            android:text="@string/invite_god"
+            android:textAllCaps="true"
+            android:textColor="@color/dashboard_text"
+            android:textSize="@dimen/sp_eighteen"
+            android:src="@drawable/ic_dashboard_text"/>
+
+        <!--<com.app.aadhi.common.customtextview.LatoBoldTextview-->
+            <!--android:id="@+id/tv_god"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/tv_invite"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="@dimen/padding_five"-->
+            <!--android:text="@string/at_your_place"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:textColor="@color/dashboard_text"-->
+            <!--android:textSize="@dimen/sp_sixteen" />-->
+
+
+        <!--<RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_name"
+            android:layout_marginLeft="@dimen/padding_twenty"
+            android:layout_marginRight="@dimen/padding_twenty"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/padding_five"
+            android:layout_marginTop="@dimen/padding_five"
+            android:orientation="horizontal">
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_audio"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:layout_alignParentLeft="true"
+                android:text="@string/audio_message"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_video"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:layout_marginRight="@dimen/padding_ten"
+                android:background="@color/white"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/video_message"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+            <com.app.aadhi.common.customtextview.LatoRegularTextview
+                android:id="@+id/tv_sloka"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding_five"
+                android:text="@string/sloka_for_day"
+                android:layout_alignParentRight="true"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_fourteen" />
+
+
+        </RelativeLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_name"
+            android:layout_marginLeft="@dimen/padding_thirty_two"
+            android:layout_marginRight="@dimen/padding_thirty_two"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="@dimen/padding_five"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_informations"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="60dp"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:textAllCaps="false"
+                android:background="@drawable/ic_information_btn"/>
+            <Button
+                android:id="@+id/btn_services"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                android:textAllCaps="false"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ic_services_btn"/>
+        </LinearLayout>
+
+
+
+        <com.app.aadhi.common.customtextview.LatoBoldTextview
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_mobile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/padding_five"
+            android:text="VENKAT (a) MOHAN"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/pooja_yellow"
+            android:textSize="@dimen/sp_sixteen" />
+
+
+        <com.app.aadhi.common.customtextview.LatoBoldTextview
+            android:id="@+id/tv_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/padding_five"
+            android:layout_marginTop="@dimen/padding_five"
+            android:textStyle="bold"
+            android:text="+97150 6948912"
+            android:textAllCaps="true"
+            android:textColor="@color/pooja_yellow"
+            android:textSize="@dimen/sp_sixteen" />
+
+    </RelativeLayout>
+
+</ScrollView>

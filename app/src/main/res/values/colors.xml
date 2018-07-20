@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="navigation_line_color">#cccccc</color>
+    <color name="navigation_drawer_item_default">#888888</color>
+    <color name="navigation_drawer_item_selected">#208425</color>
+
+    <color name="toolbar_background">#e2c038</color>
+    <color name="dashboard_text">#fff53f</color>
+    <color name="grey">#d7d8d4</color>
+    <color name="events">#EB9C26</color>
+    <color name="button_color">#804D4D4D</color>
+    <color name="pooja_yellow">#F3FD77</color>
+    <color name="pooja_blue">#71EFFD</color>
+    <color name="pooja_red">#BB4214</color>
+    <color name="pooja_black">#214651</color>
+
+    <color name="advertisement_bg">#855B17</color>
+
+
+</resources>

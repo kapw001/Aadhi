@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/padding_twenty"
+    android:layout_marginRight="@dimen/padding_twenty"
+    android:layout_marginTop="@dimen/padding_ten"
+    android:background="#50131418"
+    android:padding="@dimen/padding_five">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/padding_ten"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <com.app.aadhi.common.customtextview.LatoRegularTextview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/testimonial"
+            android:textColor="@color/white" />
+
+        <com.app.aadhi.common.customtextview.LatoRegularTextview
+            android:layout_marginTop="5dp"
+            android:id="@+id/testinomial_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="@string/write_recomendations"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>

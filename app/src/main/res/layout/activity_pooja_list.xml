@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_layout_bg">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_pooja_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/padding_ten"
+        android:layout_above="@+id/rl_ad"
+        android:padding="@dimen/padding_twenty"></android.support.v7.widget.RecyclerView>
+
+    <!--Note: The ADVERTs Layout visibility is set to Visibility.Gone,
+              because as of now, we are not going to show the ADs.-->
+    <!--<RelativeLayout
+        android:id="@+id/rl_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/advertisement_bg"
+        android:padding="@dimen/padding_five">
+
+
+        <com.app.aadhi.common.customtextview.LatoRegularTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/advertisement"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_ten" />
+
+        <com.app.aadhi.common.customtextview.LatoRegularTextview
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_five"
+            android:text="@string/flower_shop"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_fourteen" />
+
+
+        <com.app.aadhi.common.customtextview.LatoRegularTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginTop="@dimen/padding_five"
+            android:gravity="center"
+            android:text="@string/dubai"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_twelve" />
+
+
+        <com.app.aadhi.common.customtextview.LatoRegularTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_five"
+            android:gravity="center"
+            android:text="@string/sharjah"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_twelve" />
+
+
+        <com.app.aadhi.common.customtextview.LatoRegularTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginTop="@dimen/padding_five"
+            android:gravity="center"
+            android:text="@string/abu_dhabi"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_twelve" />
+
+
+    </RelativeLayout>-->
+
+</RelativeLayout>

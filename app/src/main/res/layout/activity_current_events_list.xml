@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_layout_bg"
+
+    android:orientation="vertical">
+
+    <com.app.aadhi.common.customtextview.LatoBoldTextview
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        style="@style/App_Common_Menus_Title"
+        android:text="@string/current_events_in_universe"
+        android:textSize="@dimen/padding_seventeen_point_five"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/pooja_yellow"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    <View
+        android:layout_gravity="center"
+        android:background="@color/pooja_yellow"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <!--Title Visibility is set to View.Gone. Since we are using the same layout for list and details page.-->
+    <com.app.aadhi.common.customtextview.LatoBoldTextview
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        style="@style/App_Common_Menus_Title"
+        android:text=""
+        android:visibility="gone"
+        android:textSize="@dimen/sp_twelve"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/pooja_yellow"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_current_events"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/padding_twenty"/>
+
+</LinearLayout>

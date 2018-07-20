@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_layout_bg">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+           android:layout_centerInParent="true"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
+
+            <TableRow android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_current_events"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_round_rect_blue"
+                    android:padding="0dp"
+                    android:text="@string/current_events"
+                    android:textAlignment="center"
+                    android:textSize="12dp" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="8dp"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:id="@+id/btn_video_messages"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_round_rect_blue"
+                    android:text="@string/video_message"
+                    android:textAlignment="center"
+                    android:textSize="12dp" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="8dp"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:id="@+id/btn_audio_messages"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_round_rect_blue"
+                    android:text="@string/audio_message"
+                    android:textAlignment="center"
+                    android:textSize="12dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="32dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_sloka_mantras"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_round_rect_blue"
+                    android:padding="0dp"
+                    android:text="@string/slokas"
+                    android:textAlignment="center"
+                    android:textSize="12dp" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="8dp"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:id="@+id/btn_sloka_of_day"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_round_rect_blue"
+                    android:text="@string/sloka_for_day"
+                    android:textAlignment="center"
+                    android:textSize="12dp" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="8dp"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:id="@+id/btn_eapp_notice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_round_rect_blue"
+                    android:text="@string/notice"
+                    android:textAlignment="center"
+                    android:textSize="12dp" />
+            </TableRow>
+
+        </TableLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/layout_audio_player"
+                layout="@layout/layout_audio_player" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

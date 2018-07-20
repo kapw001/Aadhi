@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/df1/WorkArea/Aadhi-2/app/src/main/assets"><file name="font/Lato-Regular.ttf" path="/home/df1/WorkArea/Aadhi-2/app/src/main/assets/font/Lato-Regular.ttf"/><file name="font/Lato-Bold.ttf" path="/home/df1/WorkArea/Aadhi-2/app/src/main/assets/font/Lato-Bold.ttf"/></source><source path="/home/df1/WorkArea/Aadhi-2/app/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/home/df1/WorkArea/Aadhi-2/app/src/release/assets"/></dataSet></merger>

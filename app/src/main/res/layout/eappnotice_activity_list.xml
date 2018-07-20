@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_layout_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.app.aadhi.common.customtextview.LatoBoldTextview
+        android:id="@+id/heading"
+        style="@style/App_Common_Menus_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/eppapp_title"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/padding_seventeen_point_five"
+        android:textStyle="bold" />
+
+    <!--Title Visibility is set to View.Gone. Since we are using the same layout for list and details page.-->
+    <com.app.aadhi.common.customtextview.LatoBoldTextview
+        android:id="@+id/title"
+        style="@style/App_Common_Menus_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/pooja_yellow"
+        android:textSize="@dimen/sp_twelve"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_current_events"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="@dimen/padding_ten"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/padding_twenty" />
+
+</LinearLayout>
