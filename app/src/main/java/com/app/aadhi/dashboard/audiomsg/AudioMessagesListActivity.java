@@ -101,7 +101,7 @@ public class AudioMessagesListActivity  extends RootActivity implements IMediaCl
     private void initViews() {
         ButterKnife.bind(this);
 
-        GridLayoutManager threeColumnGridLayout = new GridLayoutManager(this, 3);
+        GridLayoutManager threeColumnGridLayout = new GridLayoutManager(this, 2);
         mMessagesListRV.setLayoutManager(threeColumnGridLayout);
         EqualSpacingItemDecoration gridSpace = new EqualSpacingItemDecoration(16, EqualSpacingItemDecoration.GRID);
         mMessagesListRV.addItemDecoration(gridSpace);

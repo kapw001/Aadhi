@@ -50,7 +50,7 @@ public class VideoMessagesListActivity extends RootActivity implements IMediaCli
         // setTitle
         mTitltTV.setText(getString(R.string.video_msg_title));
 
-        GridLayoutManager threeColumnGridLayout = new GridLayoutManager(this, 3);
+        GridLayoutManager threeColumnGridLayout = new GridLayoutManager(this, 2);
         mMessagesListRV.setLayoutManager(threeColumnGridLayout);
         EqualSpacingItemDecoration gridSpace = new EqualSpacingItemDecoration(16, EqualSpacingItemDecoration.GRID);
         mMessagesListRV.addItemDecoration(gridSpace);

@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.app.aadhi.R;
+import com.app.aadhi.common.customtextview.LatoBoldTextview;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -20,6 +21,7 @@ public class VideoMessageListAdapter$VideoMessageVH_ViewBinding implements Unbin
     this.target = target;
 
     target.icon = Utils.findRequiredViewAsType(source, R.id.icon, "field 'icon'", ImageView.class);
+    target.title = Utils.findRequiredViewAsType(source, R.id.title, "field 'title'", LatoBoldTextview.class);
   }
 
   @Override
@@ -30,5 +32,6 @@ public class VideoMessageListAdapter$VideoMessageVH_ViewBinding implements Unbin
     this.target = null;
 
     target.icon = null;
+    target.title = null;
   }
 }

@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.app.aadhi.R;
+import com.app.aadhi.common.customtextview.LatoBoldTextview;
 import com.app.aadhi.common.customtextview.LatoRegularTextview;
 import com.app.aadhi.mediaplayer.IMediaClickListener;
 import com.app.aadhi.network.response.AudioVideoMessageListApi;
@@ -43,7 +44,7 @@ class AudioMessageListAdapter extends RecyclerView.Adapter<AudioMessageListAdapt
     @Override
     public void onBindViewHolder(@NonNull AudioMessageVH holder, int position) {
         AudioVideoMessageListApi.Data item = mItems.get(position);
-//        holder.title.setText(item.title);
+        holder.title.setText(item.title);
 
 //        holder.icon.setImageResource(R.drawable.audio);
 
@@ -62,8 +63,8 @@ class AudioMessageListAdapter extends RecyclerView.Adapter<AudioMessageListAdapt
     }
 
     class AudioMessageVH extends RecyclerView.ViewHolder implements View.OnClickListener {
-//        @BindView(R.id.title)
-//        LatoRegularTextview title;
+        @BindView(R.id.title)
+        LatoBoldTextview title;
 
         @BindView(R.id.icon)
         ImageView icon;

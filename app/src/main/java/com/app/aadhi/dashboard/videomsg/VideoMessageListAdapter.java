@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.app.aadhi.R;
+import com.app.aadhi.common.customtextview.LatoBoldTextview;
 import com.app.aadhi.common.customtextview.LatoRegularTextview;
 import com.app.aadhi.mediaplayer.IMediaClickListener;
 import com.app.aadhi.network.response.AudioVideoMessageListApi;
@@ -43,7 +44,7 @@ class VideoMessageListAdapter extends RecyclerView.Adapter<VideoMessageListAdapt
     public void onBindViewHolder(@NonNull VideoMessageVH holder, int position) {
         AudioVideoMessageListApi.Data item = mItems.get(position);
         //holder.containerLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.ic_youtube_video));
-//        holder.title.setText(item.title);
+        holder.title.setText(item.title);
 
         holder.icon.setImageResource(R.drawable.ic_youtube_video);
 //        Picasso.get().load(R.drawable.video).fit().centerCrop().into(holder.icon);
@@ -63,8 +64,8 @@ class VideoMessageListAdapter extends RecyclerView.Adapter<VideoMessageListAdapt
     class VideoMessageVH extends RecyclerView.ViewHolder implements View.OnClickListener {
         @BindView(R.id.icon)
         ImageView icon;
-//        @BindView(R.id.title)
-//        LatoRegularTextview title;
+        @BindView(R.id.title)
+        LatoBoldTextview title;
 
         VideoMessageVH(View itemView) {
             super(itemView);

@@ -17,10 +17,10 @@ import android.widget.Toast;
 import com.app.aadhi.BirdApplication;
 import com.app.aadhi.R;
 import com.app.aadhi.RootActivity;
-import com.github.javiersantos.appupdater.AppUpdater;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-
-import org.jsoup.Jsoup;
+//import com.github.javiersantos.appupdater.AppUpdater;
+//import com.github.javiersantos.appupdater.enums.UpdateFrom;
+//
+//import org.jsoup.Jsoup;
 
 import java.io.IOException;
 
@@ -49,14 +49,14 @@ public class DashboardActivity extends RootActivity implements View.OnClickListe
 
 
 
-        AppUpdater appUpdater = new AppUpdater(this);
-        appUpdater.setUpdateFrom(UpdateFrom.GOOGLE_PLAY);
-//        appUpdater.setTitleOnUpdateAvailable("Update available");
-//        appUpdater.setContentOnUpdateAvailable("Check out the latest version available of my app!");
-//        appUpdater.setTitleOnUpdateNotAvailable("Update not available");
-//        appUpdater.setContentOnUpdateNotAvailable("No update available. Check for updates again later!");
-        appUpdater.setCancelable(true);
-        appUpdater.start();
+//        AppUpdater appUpdater = new AppUpdater(this);
+//        appUpdater.setUpdateFrom(UpdateFrom.GOOGLE_PLAY);
+////        appUpdater.setTitleOnUpdateAvailable("Update available");
+////        appUpdater.setContentOnUpdateAvailable("Check out the latest version available of my app!");
+////        appUpdater.setTitleOnUpdateNotAvailable("Update not available");
+////        appUpdater.setContentOnUpdateNotAvailable("No update available. Check for updates again later!");
+//        appUpdater.setCancelable(true);
+//        appUpdater.start();
 
 //        try{
 //            currentVersion = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;

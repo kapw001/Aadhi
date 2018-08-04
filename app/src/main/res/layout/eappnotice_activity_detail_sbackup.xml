@@ -10,12 +10,10 @@
     android:focusable="true"
     android:focusableInTouchMode="true">
 
-    <RelativeLayout
-        android:layout_above="@+id/layout_audio_player"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
         <ScrollView
+            android:fillViewport="true"
+            android:fadingEdge="none"
+            android:layout_above="@+id/layout_audio_player"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -23,7 +21,8 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:paddingBottom="16dp">
 
                 <com.app.aadhi.common.customtextview.LatoBoldTextview
                     android:id="@+id/title"
@@ -49,10 +48,9 @@
                 <ImageView
                     android:id="@+id/eapp_event_banner_image"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
-                    android:minHeight="360dp"
-                    android:scaleType="center"/>
+                    android:scaleType="centerCrop"/>
 
 
                 <com.app.aadhi.common.customtextview.LatoBoldTextview
@@ -64,16 +62,11 @@
                     android:layout_marginTop="4dp"
                     android:text=""
                     android:textColor="@color/white"
-                    android:textSize="@dimen/sp_twelve"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/eapp_event_banner_image" />
+                    android:textSize="@dimen/sp_twelve"/>
 
             </LinearLayout>
         </ScrollView>
 
-
-    </RelativeLayout>
 
     <include
         android:layout_alignParentBottom="true"
@@ -84,7 +77,7 @@
         android:layout_marginBottom="24dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+
         />
 
 </RelativeLayout>

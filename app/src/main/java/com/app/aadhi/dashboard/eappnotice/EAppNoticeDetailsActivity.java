@@ -40,7 +40,7 @@ public class EAppNoticeDetailsActivity extends AudioPlayerActivity implements IM
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.eappnotice_activity_details;
+        return R.layout.eappnotice_activity_detail_sbackup;
     }
 
     @Override

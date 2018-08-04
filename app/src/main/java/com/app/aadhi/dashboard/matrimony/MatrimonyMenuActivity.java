@@ -13,6 +13,7 @@ import android.widget.RadioButton;
 import com.app.aadhi.R;
 import com.app.aadhi.RootActivity;
 import com.app.aadhi.common.DatePickerDialogFragment;
+import com.app.aadhi.common.DatePickerDialogFragmentNoRestrict;
 import com.app.aadhi.common.customtextview.LatoBoldTextview;
 import com.app.aadhi.common.customtextview.LatoRegularEditText;
 import com.app.aadhi.utils.AppUtils;
@@ -26,7 +27,7 @@ import javax.mail.Message;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MatrimonyMenuActivity extends RootActivity implements CompoundButton.OnCheckedChangeListener, DatePickerDialogFragment.OnDateSetListener, RootActivity.MailSendResponse {
+public class MatrimonyMenuActivity extends RootActivity implements CompoundButton.OnCheckedChangeListener, DatePickerDialogFragmentNoRestrict.OnDateSetListener, RootActivity.MailSendResponse {
 
     @BindView(R.id.title)
     LatoBoldTextview mTitleTV;
@@ -157,7 +158,7 @@ public class MatrimonyMenuActivity extends RootActivity implements CompoundButto
                 break;
 
             case R.id.dob_description:
-                DatePickerDialogFragment fragment = new DatePickerDialogFragment();
+                DatePickerDialogFragmentNoRestrict fragment = new DatePickerDialogFragmentNoRestrict();
                 fragment.setListener(this);
                 fragment.show(getSupportFragmentManager(), DatePickerDialogFragment.class.getSimpleName());
                 break;

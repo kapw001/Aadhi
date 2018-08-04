@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.app.aadhi.R;
+import com.app.aadhi.common.customtextview.LatoBoldTextview;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -19,6 +20,7 @@ public class AudioMessageListAdapter$AudioMessageVH_ViewBinding implements Unbin
       View source) {
     this.target = target;
 
+    target.title = Utils.findRequiredViewAsType(source, R.id.title, "field 'title'", LatoBoldTextview.class);
     target.icon = Utils.findRequiredViewAsType(source, R.id.icon, "field 'icon'", ImageView.class);
   }
 
@@ -29,6 +31,7 @@ public class AudioMessageListAdapter$AudioMessageVH_ViewBinding implements Unbin
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
+    target.title = null;
     target.icon = null;
   }
 }

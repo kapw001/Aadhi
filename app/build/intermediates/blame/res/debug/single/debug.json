@@ -568,10 +568,6 @@
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_system_update_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-xhdpi-v4/ic_system_update_white_24dp.png"
-    },
-    {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-nodpi_ic_audio.png.flat",
         "source": "/home/df1/WorkArea/Aadhi-2/app/src/main/res/drawable-nodpi/ic_audio.png"
     },
@@ -724,10 +720,6 @@
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_clear_all_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-xxxhdpi-v4/ic_clear_all_white_24dp.png"
-    },
-    {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
     },
@@ -772,10 +764,6 @@
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_clear_all_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-mdpi-v4/ic_clear_all_white_24dp.png"
-    },
-    {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/df1/WorkArea/Aadhi-2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
@@ -800,12 +788,12 @@
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c07b6d8eacbaad5cfb15dda1143c7035/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-nodpi_ic_information_btn.webp.flat",
         "source": "/home/df1/WorkArea/Aadhi-2/app/src/main/res/drawable-nodpi/ic_information_btn.webp"
+    },
+    {
+        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat",
+        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_volume_off_black_24dp.png.flat",
@@ -830,10 +818,6 @@
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_stat_name.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-hdpi-v11/ic_stat_name.png"
     },
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -868,10 +852,6 @@
         "source": "/home/df1/WorkArea/Aadhi-2/app/src/main/res/drawable/sel_btn_audio_play_pause.xml"
     },
     {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_clear_all_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-xhdpi-v4/ic_clear_all_white_24dp.png"
-    },
-    {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat",
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/anim/abc_fade_out.xml"
     },
@@ -888,16 +868,8 @@
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_system_update_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-xxxhdpi-v4/ic_system_update_white_24dp.png"
-    },
-    {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_stat_name.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-xhdpi-v11/ic_stat_name.png"
     },
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility.xml.flat",
@@ -966,10 +938,6 @@
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-v21_avd_show_password.xml.flat",
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e6d19d7f10841495b9eab33fcdf6c9cc/res/drawable-v21/avd_show_password.xml"
-    },
-    {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_system_update_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-hdpi-v4/ic_system_update_white_24dp.png"
     },
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
@@ -1244,10 +1212,6 @@
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_stat_name.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-mdpi-v11/ic_stat_name.png"
-    },
-    {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable/tooltip_frame_light.xml"
     },
@@ -1446,10 +1410,6 @@
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "/home/df1/WorkArea/Aadhi-2/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_system_update_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-xxhdpi-v4/ic_system_update_white_24dp.png"
     },
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1848,10 +1808,6 @@
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_clear_all_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-xxhdpi-v4/ic_clear_all_white_24dp.png"
-    },
-    {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_close_black_24dp.png.flat",
         "source": "/home/df1/WorkArea/Aadhi-2/app/build/generated/res/pngs/debug/drawable-hdpi/ic_close_black_24dp.png"
     },
@@ -1998,10 +1954,6 @@
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_out.xml.flat",
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e6d19d7f10841495b9eab33fcdf6c9cc/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_clear_all_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-hdpi-v4/ic_clear_all_white_24dp.png"
     },
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_arrow_back_black_24dp.png.flat",
@@ -2264,10 +2216,6 @@
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_stat_name.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-xxhdpi-v11/ic_stat_name.png"
-    },
-    {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c07b6d8eacbaad5cfb15dda1143c7035/res/layout/notification_template_big_media_narrow_custom.xml"
     },
@@ -2318,10 +2266,6 @@
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",
         "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0faba8fafadcf342379964f32417c170/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_system_update_white_24dp.png.flat",
-        "source": "/home/df1/.gradle/caches/transforms-1/files-1.1/AppUpdater-2.7.aar/b565165aef82cab3c4bf173a4b47440c/res/drawable-mdpi-v4/ic_system_update_white_24dp.png"
     },
     {
         "merged": "/home/df1/WorkArea/Aadhi-2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",

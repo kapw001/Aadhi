@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 19 20:03:16 IST 2018
+#Mon Jul 23 14:39:39 IST 2018
 7.path=lib/armeabi-v7a/libimagepipeline.so
 2.base=/home/df1/WorkArea/Aadhi-2/app/build/intermediates/assets/release
 5.set=NATIVE_RESOURCE
